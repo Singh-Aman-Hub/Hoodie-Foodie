@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 4000;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://192.168.29.241:3000'],
+  origin: ['http://localhost:3000', 'http://192.168.29.241:3000','https://foodie-frontend-v05k.onrender.com'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
