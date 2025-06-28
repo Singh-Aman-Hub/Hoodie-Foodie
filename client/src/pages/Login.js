@@ -15,7 +15,7 @@ const Login = () => {
       const res = await axios.post('/auth/login', form);
       localStorage.setItem('token', res.data.token);
       alert("Logged in successfully!");
-      navigate('/profile');
+      setTimeout(() => navigate('/profile'), 300);
     } catch (err) {
       alert(err.response?.data?.msg || "Login failed");
     }
