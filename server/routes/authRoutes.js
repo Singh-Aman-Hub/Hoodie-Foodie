@@ -23,7 +23,7 @@ router.post('/register', async (req, res) => {
     await newUser.save();
 
     // ✅ Generate token after saving user
-    const token = jwt.sign({ id: newUser._id }, JWT_SECRET, { expiresIn: '0.001' });
+    const token = jwt.sign({ id: newUser._id }, JWT_SECRET, { expiresIn: '1h' });
 
     // ✅ Return token and user info
     res.status(201).json({
@@ -51,7 +51,7 @@ router.post('/login', async (req, res) => {
     if (!isMatch) return res.status(401).json({ msg: "Invalid credentials" });
 
     // Create token
-    const token = jwt.sign({ id: user._id }, JWT_SECRET, { expiresIn: '0.001h' });
+    const token = jwt.sign({ id: user._id }, JWT_SECRET, { expiresIn: '1h' });
 
     res.json({ token, user: { id: user._id, name: user.name, email: user.email } });
   } catch (err) {
