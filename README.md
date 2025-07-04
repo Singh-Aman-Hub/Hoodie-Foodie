@@ -112,7 +112,8 @@ PORT=4000
 <p>This project is licensed under the MIT License.</p>
 
 <hr />
-![collage](https://github.com/user-attachments/assets/553bebe1-ec07-4c06-9d79-408753ba2b81)
+<img width="1020" alt="collage" src="https://github.com/user-attachments/assets/553bebe1-ec07-4c06-9d79-408753ba2b81" />
+
 
 
 
