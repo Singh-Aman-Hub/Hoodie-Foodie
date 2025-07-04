@@ -112,6 +112,8 @@ PORT=4000
 <p>This project is licensed under the MIT License.</p>
 
 <hr />
+![MixCollage-04-Jul-2025-04-06-PM-7678](https://github.com/user-attachments/assets/55960713-d330-4135-a56a-4b1faa7cd409)
+
 
 <h2>💻 Live Demo</h2>
-<p><a href="https://foodie-frontend-v05k.onrender.com/" target="_blank">👉 View Live App</a></p>
+<p><a href="https://foodie-frontend-v05k.onrender.com/" target="_blank">👉 View Live App hosted on render.com</a></p>
