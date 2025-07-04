@@ -112,7 +112,8 @@ PORT=4000
 <p>This project is licensed under the MIT License.</p>
 
 <hr />
-![MixCollage-04-Jul-2025-04-06-PM-7678](https://github.com/user-attachments/assets/55960713-d330-4135-a56a-4b1faa7cd409)
+![collage](https://github.com/user-attachments/assets/553bebe1-ec07-4c06-9d79-408753ba2b81)
+
 
 
 <h2>💻 Live Demo</h2>
